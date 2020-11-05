@@ -76,11 +76,8 @@ In the project relay is used to turn ON & OFF the motor and the Exhaust fan acco
 to the signal received by the Arduino Uno..
 ```
 - **DC Motor:**
-    When a current-carrying conductor is placed in a magnetic field, it experiences a torque
-
-
 ```
-and has a tendency to move. In other words, when a magnetic field and an electric field
+When a magnetic field and an electric field
 interact, a mechanical force is produced. The DC motor or direct current motor works
 on that principle. It works on 3V/5V DC supply.
 A DC motor is used here in this project to replicate the function of a water pump. So
