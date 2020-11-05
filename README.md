@@ -77,8 +77,7 @@ to the signal received by the Arduino Uno..
 ```
 - **DC Motor:**
 ```
-When a magnetic field and an electric field
-interact, a mechanical force is produced. The DC motor or direct current motor works
+When a magnetic field and an electric field interact, a mechanical force is produced. The DC motor or direct current motor works
 on that principle. It works on 3V/5V DC supply.
 A DC motor is used here in this project to replicate the function of a water pump. So
 if the moisture sensor senses that there is no water in the soil, then the pump will
