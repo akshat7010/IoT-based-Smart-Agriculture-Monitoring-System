@@ -1,10 +1,9 @@
 /* Comment this out to disable prints and save space */
-//#define BLYNK_PRINT Serial
 #include <ESP8266WiFi.h>
 #include <SoftwareSerial.h>
 #include <BlynkSimpleEsp8266.h>
-char auth[] = "0LlsMoJAVYvXwiuqy7xCdf-HagAaxcAr";
-char ssid[] = "proj";
+char auth[] = "Your auth key";
+char ssid[] = "proj";//replace with your id & pass
 char pass[] = "cool7010";
 BlynkTimer timer;
 SoftwareSerial s(D6,D5);
@@ -45,12 +44,12 @@ String wval = getValue(data, '&', 3);
   // and PUSH Notification
 
   if(h > 35){
-    Blynk.email("akshat7010@gmail.com", "ESP8266 Alert", "Temperature over 35C!");
+    Blynk.email("example@gmail.com", "ESP8266 Alert", "Temperature over 35C!");
     Blynk.notify("ESP8266 Alert - Temperature over 35C!Turning the fan ON");
   }
     if(m <30 && l<100)
     {
-      Blynk.email("akshat7010@gmail.com", "ESP8266 Alert", "Soil is dry");
+      Blynk.email("example@gmail.com", "ESP8266 Alert", "Soil is dry");
     Blynk.notify("ESP8266 Alert - Moisture level is below 30%!Turning the pump ON");
     }
 }
