@@ -1,7 +1,5 @@
 #### DIY HARDWARE PROJECT REPORT
 
-#### CS578: IOT
-
 # IoT based Smart Agriculture Monitoring System
 
 ## 1 PURPOSE OF THE PROJECT
@@ -21,8 +19,6 @@ the wireless protocol.
 - LCD Display
 - Mini Exhaust Fan
 - DC motor
-
-
 - Smartphone
 - Relays
 - Jumper wires, cables
@@ -127,13 +123,14 @@ at the nodeMCU to get the separate values.
 ```
 - **Blynk App:**
 
-
+```
 It was designed for IoT. This app has the capacity to remotely control hardware and
 also shows sensor information. This app also helps to visualise and store data. Blynk
 Server establishes a communication network between smartphone and hardware. All
 incoming and outgoing commands are processed and also enables the communication
 between server and process
-
+```
+## 3 How to setup?
 **Follow the steps below for setting up the system:**
 
 1. Install the following libraries before running the code:
